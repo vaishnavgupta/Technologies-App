@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AndroidActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:textSize="45dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="@color/lightpurple"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Development" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:padding="8dp"
+
+            android:textSize="35dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/bg_circle"
+            android:text="HTML" />
+        <!--ADDING SPACER VIEW TO RIGHT ALIGN-->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/textView5"
+            android:padding="8dp"
+
+            android:textSize="35dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/bg_circle"
+            android:text="CSS" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+
+        <TextView
+
+            android:padding="8dp"
+
+            android:textSize="35dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/bg_circle"
+            android:text="Javascript" />
+        <!--ADDING SPACER VIEW TO RIGHT ALIGN-->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+
+            android:padding="8dp"
+
+            android:textSize="35dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/bg_circle"
+            android:text="React" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Back to Menu" />
+</LinearLayout>
